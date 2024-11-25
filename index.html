@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <title>personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+       (function(){
+          emailjs.init("service_2oak2be");
+       })();
+    </script>   
+    </head>
+    <body>
+      <header>
+        <a href="#" class="logo"><img src="images/logo.png" alt="logo"></a>
+        <ul class="menu-list">
+          <a href="#Home" class="active">Home</a>
+          <a href="#About-Me" class="b">About Me</a>
+          <a href="#skills"class="c">Skills</a>
+          <a href="#Qualifications" class="d">Qualifications</a>
+          <a href="#Projects" class="e">Projects</a>
+          <a href="#Contact-Me" class="f">Contact-Me</a>
+        </ul>
+       
+      </header>
+      <section class="hero">
+        <div class="hero-txt">
+          <h2>Hello! </h2>
+          <a href="#" class="head-line">
+            <i class="ri-bard-line"></i>
+            <span>This is Anupa </span>
+            </a>
+            <h1>Iam <span class="input">a Computer Science Engineer</span></h1>
+            <div class="social">
+              <a href="https://www.instagram.com/Anup Badrinath" target="_blank"><i class="ri-instagram-line"></i></a>
+              <a href="https://github.com/Anupbadrinath" target="_blank"><i class="ri-github-fill"></i></a>
+              <a href="https://www.linkedin.com/in/anupa-mb-624177206" target="_blank"><i class="ri-linkedin-fill"></i></a>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+              <a href="https://www.reddit.com/user/CurrentLog9616" target="_blank"><i class="ri-reddit-fill"></i></a>
+            </div>
+            <div class="home-btn">
+              <a href="#" class="btn1">
+                My Works
+                <i class="ri-arrow-right-s-line"></i>
+              </a>
+              <a href="#" class="btn2" id="downloadCvButton">
+                Download CV
+                <i class="ri-download-2-line"></i>
+              </a>
+
+            </div>
+          </a>
+        </div>
+      </section>
+      <section class="skills section" id="About-Me">
+        <h2 class="section__title">About-Me</h2>
+      
+        </section>
+      <div class="container">
+      
+            <div class="card4">
+                <p id="oho"> "I am a 2024 graduate with a 
+                    Bachelor of Engineering in Computer Science, driven by a passion for technology and innovation. With a strong foundation in software development, data structures, algorithms, and a growing expertise in DevOps, Django, and MongoDB, I am actively seeking opportunities in the IT sector. Eager to apply my skills in real-world projects, I am looking for a role where I can contribute to impactful solutions while continuously learning and
+                     growing within a dynamic team."</p>
+                    <div>
+                        <p>      ___________________</p>
+                    </div>
+            </div>
+        </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <section class="skills section" id="skills">
+          <h2 class="section__title">Skills</h2>
+          <span class="section__subtitle">My technical level</span>
+          </section>
+          
+          <div class="card">
+            <div class="column">
+      <div class="dropdown" onclick="toggleDropdown('ProgrammingLanguages')">
+        Programming Languages &#9660; <!-- The HTML entity for down arrow -->
+          <div id="ProgrammingLanguages" style="display:none;">
+            <h2>C</h2>
+            <h2>Java</h2><br>
+            <h2>JavaScript</h2><br>
+            <h2>Python</h2><br>
+          </div>
+      </div>
+            </div>
+       </div>
+       <br>
+       <div class="card1">
+       <div class="column">
+       <div class="dropdown" onclick="toggleDropdown('Technologies')">
+        Technologies &#9660; <!-- The HTML entity for down arrow -->
+          <div id="Technologies" style="display:none;">
+            <h2>Git</h2><br>
+            <h2>MongoDB</h2><br>
+            <h2>MYSQL</h2><br>
+            <h2>Node.Js</h2><br>
+           <h2>React.Js</h2> 
+          </div> 
+      </div>
+       </div>
+       </div>
+       <br>
+       <div class="card2">
+        <div class="column">
+        <div class="dropdown" onclick="toggleDropdown('ITconstructs')">
+         ITconstructs &#9660; <!-- The HTML entity for down arrow -->
+           <div id="ITconstructs" style="display:none;">
+             <h2>DBMS</h2><br>
+             <h2>DS & Algorithms</h2><br>
+             <h2>OOP</h2><br>
+             <h2>OS</h2><br>
+            <h2>Computer Networks</h2> 
+           </div> 
+       </div>
+        </div>
+        </div>
+        <br>
+        <br>
+
+        <!--==================== Qualifications ==================-->
+
+        <section class="skills section" id="Qualifications">
+          <h2 class="section__title">Qualifications</h2>
+          <span class="section__subtitle">My Education level</span>
+          </section>
+    
+
+          <div class="qualification-section">
+            <h2>My Qualifications</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Amara Jyothi School</h3>
+                        <h4>Matric</h4>
+                        <span>2017 - 2018</span>
+                        <button onclick="toggleDescription(this)">View More</button>
+                        <p class="description">Completed my Secondary school in Amara Jyothi School at my home town which comes  under the Karnataka Secondary Education Examination Board with a commendable percentile of 88% .</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-content">
+                      <h3>Narayan P.U College</h3>
+                      <h4>Pre-University</h4>
+                      <span>2018 - 2020</span>
+                      <button onclick="toggleDescription(this)">View More</button>
+                      <p class="description">I completed my pre-university education at "Narayan P.U College" in Kolar, specializing in the PCMC's (Physics, Chemistry, Mathematics, Computer Science) stream with a percentile of 86%.</p>
+                  </div>
+              </div>
+              <div class="timeline-item left"></div>
+                <div class="timeline-content">
+                    <h3>K.S School of Engineering & management</h3>
+                    <span>2021 - 2024</span>
+                    <h4>Bachelor of Engineering in Computer Science</h4>
+                    <button onclick="toggleDescription(this)">View More</button>
+                    <p class="description">I pursued my Bachelor of Engineering in Computer Science at KSSEM, Bengaluru. Throughout the four-year program, I maintained a strong academic record and successfully completed the curriculum without any backlogs with a CGPA of 7.8 grade. This achievement reflects my dedication, consistency, and ability to grasp complex technical concepts. My education has provided me with a solid foundation in computer science, equipping me with the skills and knowledge necessary to excel in the IT industry.</p>
+                </div>
+            </div>
+          </div>
+      </div>
+
+
+
+      <section class="skills section" id="Projects">
+        <h2 class="section__title">Projects</h2>
+        </section>
+      <section>
+        <div class="slider">
+            
+            <div class="slides">
+                <!-- Add your project items here -->
+                <div class="slide">
+                    
+                    <h3 class="no">AI Article Summarizer</h3>
+                    <br>
+                    <p class="joke">An AI article summarizer is a tool that uses artificial intelligence to condense lengthy articles, research papers, or any text into shorter, digestible summaries. These tools employ advanced algorithms to identify key points, terms, and findings, making it easier to understand the core content quickly. </p>
+                    <a href="https://github.com/Anupbadrinath/Ai-Article-Summarizer" target="_blank">GitHub Repository<i class="ri-git-repository-line"></i></a>
+                </div>
+          
+                </div>
+                
+                <div class="slides">
+                  <!-- Add your project items here -->
+                  <div class="slide">
+                      
+                      <h3 class="no">Tap-Tune</h3>
+                      <br>
+                      <p class="joke">Tap Tune is a web-based music player application designed to provide users with a simple and intuitive interface for playing and managing a playlist of songs. Developed using HTML for the structure, CSS for styling, and JavaScript for functionality, this project showcases fundamental web development skills.</p>
+                      <a href="https://github.com/Anupbadrinath/Tap-Tune" target="_blank">GitHub Repository<i class="ri-git-repository-line"></i></a>
+                  </div>
+            
+                  </div>
+                  <div class="slides">
+                    <!-- Add your project items here -->
+                    <div class="slide">
+                        
+                        <h3 class="no">Language Translator</h3>
+                        <br>
+                        <p class="joke">This is a simple language translator web application built using pure HTML, CSS, and JavaScript. The project utilizes the Google Translate API to provide translation services, allowing users to translate text from one language to another seamlessly. The application is designed to be fully responsive, providing an optimal user experience across various devices and screen sizes.
+
+                        </p>
+                        <a href="https://github.com/Anupbadrinath/Language Translator" target="_blank">GitHub Repository<i class="ri-git-repository-line"></i></a>
+                        
+                    </div>
+              
+                    </div>
+                  <div class="slides">
+                    <!-- Add your project items here -->
+                    <div class="slide">
+                       
+                        <h3 class="no">Sorting Visualizer</h3>
+                        <br>
+                        <p class="joke">Sorting-Visualizer is a Java-based interactive tool that visualizes various sorting algorithms, providing users with a hands-on way to learn and explore how algorithms like Bubble Sort, Selection Sort, Merge Sort, and others work in real-time. Whether you're new to programming or a seasoned developer, AlgoViz offers an intuitive graphical interface to observe and understand sorting processes step-by-step.
+                        </p>
+                        <a href="https://github.com/Anupbadrinath/Sort-Visual" target="_blank">GitHub Repository<i class="ri-git-repository-line"></i></a>
+                        
+                    </div>
+              
+                    </div>
+                    
+
+              </section>
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+      <section class="skills section" id="Contact-Me">
+        <h2 class="section__title">Contact-Me</h2>
+        </section>
+        <br>
+        <section class="contact-section">
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="ri-mail-line"></i>
+              <p class="az">Email:<h3 class="gh">anupbadrinath177@gmail.com</h3></p>
+          </div>
+          <div class="contact-item">
+            <i class="ri-map-pin-user-fill"></i>
+              <p class="az">Location:<h3 class="gh">Mulbagal, Karnataka, India</h3> </p>
+          </div>
+          <div class="contact-item">
+            <i class="ri-phone-fill"></i>
+              <p class="az">Phone: <h3 class="gh"> +91 8050505685</h3></p>
+          </div>
+      
+      <div class="contact-form">
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send message
+              <i class="ri-send-plane-fill"></i>
+            </button>
+            
+        </form>
+    </div>
+        </div>
+    </section>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script> 
+    
+
+      
+
+   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+   <script>
+     document.getElementById('downloadCvButton').addEventListener('click', function(event) {
+        event.preventDefault(); // Prevent the default link behavior
+        // Create a link element
+        var link = document.createElement('a');
+        // Set the href attribute to the path of your CV file
+        link.href = 'anup_cv.pdf';
+        // Set the download attribute with a value of the file name
+        link.download = 'anup_cv.pdf';
+        // Append the link to the body
+        document.body.appendChild(link);
+        // Programmatically click the link to trigger the download
+        link.click();
+        // Remove the link from the document
+        document.body.removeChild(link);
+    });
+      
+    function toggleDropdown(id) {
+ var element = document.getElementById(id);
+ if (element.style.display === 'none') {
+   element.style.display = 'block';
+ } else {
+   element.style.display = 'none';
+ }
+}
+
+function toggleDescription(button) {
+    const description = button.nextElementSibling;
+    if (description.style.display === "none" || description.style.display === "") {
+        description.style.display = "block";
+        button.textContent = "View Less";
+    } else {
+        description.style.display = "none";
+        button.textContent = "View More";
+    }
+}
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    const textElement = document.getElementById("oho");
+    const text = textElement.textContent;
+    textElement.textContent = "";
+
+    let index = 0;
+    function typeEffect() {
+        if (index < text.length) {
+            textElement.textContent += text.charAt(index);
+            index++;
+            setTimeout(typeEffect, 100);
+        }
+    }
+
+    typeEffect();
+});
+
+   </script>
+
+   
+    </body>
+    </html>
